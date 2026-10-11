@@ -1,0 +1,21 @@
+@keyframes aparecerModificado {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+}
+
+.texto-animado {
+    text-align: center;
+    color: #6c5ce7;
+    animation: aparecerModificado 0.8s ease-in-out infinite alternate;
+}
+}

@@ -1,0 +1,21 @@
+.tarjeta {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 320px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.cuadrado {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    background-color: #6c5ce7;
+    transition: transform 0.4s ease;
+}
+
+.tarjeta:hover .cuadrado {
+    transform: scale(1.2);
+}
